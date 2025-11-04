@@ -1,0 +1,18 @@
+# Core dependencies
+aiogram==3.15.0                # Asynchronous framework for Telegram Bot API
+python-dotenv==1.0.1          # Environment variable loader
+
+# HTTP clients
+requests==2.32.3              # Synchronous HTTP client (used by Ostatki PM)
+aiohttp==3.11.11              # Asynchronous HTTP client (used by Shipment)
+
+# Data processing
+pandas==2.2.3                 # Data analysis library (used by Ostatki PM)
+openpyxl==3.1.2               # Excel file handling (used by pandas)
+python-dateutil==2.9.0        # Date utilities (used by Shipment)
+
+# Scheduling
+apscheduler==3.10.4           # Task scheduler
+
+# Logging & Utilities
+logging==0.5.1.2              # Enhanced logging (optional)
